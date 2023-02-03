@@ -5,7 +5,16 @@ import "./App.css";
 export default function Footer() {
   return (
     <footer>
-      Open Source - coded by <a href="">Andrea</a>
+      <a
+        href="https://github.com/Andrearea21/weather-app-with-react"
+        target="blank"
+      >
+        Open Source
+      </a>{" "}
+      - coded by{" "}
+      <a href="https://github.com/Andrearea21" target="blank">
+        Andrea
+      </a>
     </footer>
   );
 }
